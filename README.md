@@ -64,9 +64,11 @@ playwright-report/             # HTML report generated after test run
 
 ---
 
-## 🧪 Test Scenarios Milwaukee.spec.ts
+## 🧪 Test Scenarios Pipeline.spec.ts
 ...
 
+## 🧪 Test Scenarios Product.spec.ts
+...
 ---
 
 ## 🎯 Key Features
