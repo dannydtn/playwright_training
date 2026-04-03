@@ -32,7 +32,7 @@ export default defineConfig({
     // ── Milwaukee Tool (không cần auth) ──────────────────────────────────
     {
       name: 'milwaukee',
-      testMatch: /milwaukee\.spec\.ts/,
+      // testMatch: /milwaukee\.spec\.ts/,
       use: {
         actionTimeout: 30000,
         ...devices['Desktop Chrome'],

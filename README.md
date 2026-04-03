@@ -15,9 +15,13 @@ The test suite validates core user flows on the Milwaukee Tool website:
 tests/
  ├── milwaukee/
  │   └── milwaukee.spec.ts     # Main test cases (TC01, TC02)
+ |   └── pipeline.spec.ts     # Main test cases (TC01, TC02, TC03)
+ |   └── products.spec.ts     # Main test cases (TC01, TC02, TC03)
  └── pages/
      ├── BasePage.ts           # Base class: navigate, dismiss cookie, get title/URL
      ├── HomePage.ts           # Homepage locators & actions
+     ├── PipelinePage.ts       # Pipeline locators & actions
+     ├── ProductsPage.ts       # Products locators & actions
      └── SearchPage.ts         # Search results page locators & actions
 
 playwright.config.ts           # Project config, baseURL, browser, reporter
