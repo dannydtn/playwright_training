@@ -31,7 +31,7 @@ playwright-report/             # HTML report generated after test run
 
 ---
 
-## 🧪 Test Scenarios
+## 🧪 Test Scenarios Milwaukee.spec.ts
 
 ### 1. 🏠 Homepage Tests (`TC01`)
 
@@ -61,6 +61,11 @@ playwright-report/             # HTML report generated after test run
 4. Verify:
    * ✅ URL contains `search?q=drill`
    * ✅ Page title matches pattern `Tool Finder` or `Search`
+
+---
+
+## 🧪 Test Scenarios Milwaukee.spec.ts
+...
 
 ---
 
